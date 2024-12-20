@@ -15,18 +15,12 @@ class _LaunchScreenState extends State<LaunchScreen> {
   void didChangeDependencies() {
     super.didChangeDependencies();
     // Preload the image to avoid delayed loading
-    // precacheImage(AssetImage('images/icons/dictionary.png'), context);
     precacheImage(AssetImage('images/icons/magic.png'), context);
   }
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
-    // Future.delayed(Duration(seconds: 2), () {
-    //   Navigator.pushReplacementNamed(context, '/bottom_navigation_screen');
-    // });
-
     WidgetsBinding.instance.addPostFrameCallback((_) {
       Future.delayed(Duration(seconds: 2), () {
         Navigator.pushReplacementNamed(context, '/bottom_navigation_screen');

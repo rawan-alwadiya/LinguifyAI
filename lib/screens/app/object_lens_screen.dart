@@ -275,9 +275,6 @@ class _ObjectLensScreenState extends State<ObjectLensScreen> {
                     'Discover the world around you! Snap a picture of any object, and our tool will instantly identify it and provide a translation, helping you understand your surroundings in any language',
                     style: GoogleFonts.roboto(
                       fontSize: 16.sp,
-
-                      // color: Color(0xFF686D76),
-                      // color: Color(0xFF50545A),
                       color: Color(0xFF31363F),
                     ),
                     textAlign: TextAlign.start

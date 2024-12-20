@@ -316,7 +316,6 @@ class _GrammarGladiatorScreenState extends State<GrammarGladiatorScreen> {
                                 width: 35.w,
                                 height: 35.h,
                                 child: Image.asset(
-                                  // 'images/icons/dictionary.png',
                                   'images/icons/magic.png',
                                   fit: BoxFit.cover,
                                 ),
@@ -338,9 +337,6 @@ class _GrammarGladiatorScreenState extends State<GrammarGladiatorScreen> {
                               'The arena awaits your brilliance—choose wisely!',
                               style: GoogleFonts.roboto(
                                 fontSize: 16.sp,
-
-                                // color: Color(0xFF686D76),
-                                // color: Color(0xFF50545A),
                                 color: Color(0xFF31363F),
                               ),
                               textAlign: TextAlign.start
@@ -355,9 +351,6 @@ class _GrammarGladiatorScreenState extends State<GrammarGladiatorScreen> {
                           decoration: BoxDecoration(
                             gradient: const LinearGradient(
                               colors: [
-                                // Color(0xFF69779B) : Color(0xFF9692AF),
-                                // Color(0xFF827397),
-                                // Color(0xFF827397),
                                 Color(0xFF898AA6),
                                 Color(0xFF9A86A4),
                               ], // Gradient colors

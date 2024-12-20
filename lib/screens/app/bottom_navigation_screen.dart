@@ -31,13 +31,6 @@ class _BottomNavigationScreenState extends State<BottomNavigationScreen> {
     return Scaffold(
       body: _screens[_currentIndex].widget,
       bottomNavigationBar: Padding(
-        // padding: EdgeInsets.fromLTRB(
-        //   MediaQuery.of(context).size.width * 0.06, // Horizontal padding
-        //   0,
-        //   MediaQuery.of(context).size.width * 0.06,
-        //   MediaQuery.of(context).size.height * 0.03, // Bottom padding
-        // ),
-
         padding: const EdgeInsets.fromLTRB(24.0, 0, 24.0, 24.0),
         child: ClipRRect(
           borderRadius: BorderRadius.circular(50),

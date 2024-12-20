@@ -343,8 +343,6 @@ class _CorrectlyAiScreenState extends State<CorrectlyAiScreen> {
                             height: 170.h,
                             child: Image.asset(
                               'images/icons/magic-hat.png',
-                              // 'images/icons/magic.png',
-                              // 'images/icons/book7.png',
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -407,8 +405,6 @@ class _CorrectlyAiScreenState extends State<CorrectlyAiScreen> {
                                 colors: [
                                   Color(0xFF248888),
                                   Color(0xFF1B6E6A)
-                                  // Color(0xFF7C3E66),
-                                  // Color(0xFF7C3E66),
                                 ], // Gradient colors
                                 begin: Alignment.topLeft,
                                 end: Alignment.bottomRight,

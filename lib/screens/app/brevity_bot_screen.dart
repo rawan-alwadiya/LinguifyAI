@@ -152,8 +152,6 @@ class _BrevityBotScreenState extends State<BrevityBotScreen> {
                             height: 170.h,
                             child: Image.asset(
                               'images/icons/book7.png',
-                              // 'images/icons/magic.png',
-                              // 'images/icons/book7.png',
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -218,7 +216,6 @@ class _BrevityBotScreenState extends State<BrevityBotScreen> {
                                 width: 35.w,
                                 height: 35.h,
                                 child: Image.asset(
-                                  // 'images/icons/dictionary.png',
                                   'images/icons/magic.png',
                                   fit: BoxFit.cover,
                                 ),
@@ -240,10 +237,8 @@ class _BrevityBotScreenState extends State<BrevityBotScreen> {
                               'Enter your text, tap the magic wand, and let CorrectlyAI transform it into flawless grammar perfection!',
                               style: GoogleFonts.roboto(
                                 fontSize: 16.sp,
-
                                 // color: Color(0xFF686D76),
                                 color: Color(0xFF31363F),
-                                // color: Color(0xFF50545A),
                               ),
                               textAlign: TextAlign.start
                           ),
@@ -312,8 +307,6 @@ class _BrevityBotScreenState extends State<BrevityBotScreen> {
                             height: 170.h,
                             child: Image.asset(
                               'images/icons/book7.png',
-                              // 'images/icons/magic.png',
-                              // 'images/icons/book7.png',
                               fit: BoxFit.cover,
                             ),
                           ),
@@ -354,9 +347,7 @@ class _BrevityBotScreenState extends State<BrevityBotScreen> {
                               ),
                             ),
                             onChanged: (String value) {
-                              setState(() {
-
-                              });
+                              setState(() {});
                             },
                           ),
                         ),

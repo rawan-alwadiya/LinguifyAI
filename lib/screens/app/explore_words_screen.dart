@@ -511,9 +511,6 @@ class _ExploreWordsScreenState extends State<ExploreWordsScreen> {
                     'Discover new words! Type or get a surprise. Flip for meanings, examples, and more—each flip holds a new discovery!',
                       style: GoogleFonts.roboto(
                         fontSize: 15.sp,
-                        // color: const Color(0xFF686D76),
-                        // color: const Color(0xFF50545A),
-                        // color: const Color(0xFF4F5258),
                         color: const Color(0xFF31363F),
                       ),
                       textAlign: TextAlign.start

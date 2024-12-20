@@ -29,7 +29,6 @@ class _GrammarGuruScreenState extends State<GrammarGuruScreen> {
                       width: 35.w,
                       height: 35.h,
                       child: Image.asset(
-                        // 'images/icons/dictionary.png',
                         'images/icons/magic.png',
                         fit: BoxFit.cover,
                       ),
@@ -51,9 +50,6 @@ class _GrammarGuruScreenState extends State<GrammarGuruScreen> {
                     'Challenge your grammar skills or get them corrected with AI-powered tools. Choose your path below and start your journey to grammar mastery!',
                     style: GoogleFonts.roboto(
                       fontSize: 16.sp,
-
-                      // color: Color(0xFF686D76),
-                      // color: Color(0xFF50545A),
                       color: Color(0xFF31363F),
                       // color: Color(0xFF686D76),
                     ),
@@ -82,8 +78,6 @@ class _GrammarGuruScreenState extends State<GrammarGuruScreen> {
                       colors: [
                         Color(0xFF11698E),
                         Color(0xFF19456B),
-                        // Color(0xFF7C3E66),
-                        // Color(0xFF7C3E66),
                       ], // Gradient colors
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
@@ -122,12 +116,8 @@ class _GrammarGuruScreenState extends State<GrammarGuruScreen> {
                   decoration: BoxDecoration(
                     gradient: const LinearGradient(
                       colors: [
-                        // Color(0xFF804674),
-                        // Color(0xFF643A6B),
                         Color(0xFF248888),
                         Color(0xFF1B6E6A)
-                        // Color(0xFF7C3E66),
-                        // Color(0xFF7C3E66),
                       ], // Gradient colors
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
