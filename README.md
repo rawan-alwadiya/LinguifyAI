@@ -48,4 +48,4 @@
 - Flutter SDK installed  
 - Dart installed  
 - Android Studio or VS Code with Flutter plugin  
-- Running instance of *LinguifyAI Backend*
+- Running instance of [LinguifyAI Backend](https://github.com/rawan-alwadiya/LinguifyAI_Backend)** to function correctly. 
