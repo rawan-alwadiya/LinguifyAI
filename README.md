@@ -47,5 +47,7 @@
 
 - Flutter SDK installed  
 - Dart installed  
-- Android Studio or VS Code with Flutter plugin  
-- Running instance of [LinguifyAI Backend](https://github.com/rawan-alwadiya/LinguifyAI_Backend) to function correctly. 
+- Android Studio or VS Code with Flutter plugin
+
+### Related Project  
+LinguifyAI requires a running instance of the **[LinguifyAI Backend](https://github.com/rawan-alwadiya/LinguifyAI_Backend)** to function correctly. Follow the backend setup instructions to deploy it.
