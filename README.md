@@ -1,6 +1,6 @@
 # LinguifyAI
 
-*LinguifyAI* is an AI-powered language learning application built with Flutter. It integrates AI-driven features to assist users in *translation, grammar correction, object detection, summarization, and chatbot interactions*.
+**LinguifyAI** is an AI-powered language learning application built with Flutter. It integrates AI-driven features to assist users in *translation, grammar correction, object detection, summarization, and chatbot interactions*.
 
 ## Features
 
@@ -19,8 +19,8 @@
   - Supports translation of detected object names.  
 
 ### - Grammar Tools  
-  - *Grammar Correction:* Fixes grammar mistakes using an AI model.  
-  - *Grammar Quiz:* Generates multiple-choice grammar questions with feedback.  
+  - **Grammar Correction:** Fixes grammar mistakes using an AI model.  
+  - **Grammar Quiz:** Generates multiple-choice grammar questions with feedback.  
 
 ### - Summarization  
   - Summarizes texts using an AI model fine-tuned for this task.  
@@ -33,11 +33,11 @@
 
 ## Technologies Used  
 
-- *Flutter & Dart* (Cross-platform development)  
-- *BLoC* (State management)  
-- *Html* (API requests)  
-- *Speech-to-Text* (Voice input)  
-- *Image to Text* (Image handling for object detection)  
+- **Flutter & Dart** (Cross-platform development)  
+- **BLoC** (State management)  
+- **Html** (API requests)  
+- **Speech-to-Text** (Voice input)  
+- **Image to Text** (Image handling for object detection)  
 
 ---
 
