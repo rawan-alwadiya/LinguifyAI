@@ -1,5 +1,7 @@
 # LinguifyAI
 
+![LinguifyAI Design](https://github.com/rawan-alwadiya/LinguifyAI/blob/master/LinguifyAI_design.png)
+
 **LinguifyAI** is an AI-powered language learning application built with Flutter. It integrates AI-driven features to assist users in *translation, grammar correction, object detection, summarization, and chatbot interactions*.
 
 ## Features
