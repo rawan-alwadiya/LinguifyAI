@@ -7,7 +7,10 @@ import 'package:http/http.dart' as http;
 class RandomQuestionController {
 
   // Emulator URL
-  final String baseUrl = 'http://10.0.2.2:8000/random_question';
+  // final String baseUrl = 'http://10.0.2.2:8000/random_question';
+
+  // Real Device URL
+  final String baseUrl = 'http://192.168.8.67:8000/random_question';
 
   Future<RandomQuestionResponse> getRandomQuestion() async {
     Uri uri = Uri.parse(baseUrl);

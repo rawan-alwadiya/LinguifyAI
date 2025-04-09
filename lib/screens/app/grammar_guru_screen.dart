@@ -76,8 +76,12 @@ class _GrammarGuruScreenState extends State<GrammarGuruScreen> {
                   decoration: BoxDecoration(
                     gradient: const LinearGradient(
                       colors: [
-                        Color(0xFF11698E),
-                        Color(0xFF19456B),
+                        // Color(0xFF11698E),
+                        // Color(0xFF19456B),
+                        Color(0xFF248888),
+                        Color(0xFF1B6E6A)
+                        // Color(0xFFE7475E),
+                        // Color(0xFFEB586F),
                       ], // Gradient colors
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,
@@ -116,8 +120,14 @@ class _GrammarGuruScreenState extends State<GrammarGuruScreen> {
                   decoration: BoxDecoration(
                     gradient: const LinearGradient(
                       colors: [
-                        Color(0xFF248888),
-                        Color(0xFF1B6E6A)
+                        // Color(0xFF248888),
+                        // Color(0xFF1B6E6A)
+                        // Color(0xFF248888),
+                        // Color(0xFF1B6E6A)
+                        Color(0xFFE7475E),
+                        Color(0xFFEB586F),
+                        // Color(0xFFE7475E),
+                        // Color(0xFFEB586F),
                       ], // Gradient colors
                       begin: Alignment.topLeft,
                       end: Alignment.bottomRight,

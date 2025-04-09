@@ -35,6 +35,9 @@ android {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig = signingConfigs.debug
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 }
@@ -42,3 +45,15 @@ android {
 flutter {
     source = "../.."
 }
+
+//dependencies {
+//    // Add the ML Kit dependencies
+//    implementation 'com.google.mlkit:text-recognition:16.1.2'
+//    implementation 'com.google.mlkit:text-recognition-chinese:16.1.2'
+//    implementation 'com.google.mlkit:text-recognition-japanese:16.1.2'
+//    implementation 'com.google.mlkit:text-recognition-korean:16.1.2'
+//    implementation 'com.google.mlkit:text-recognition-devanagari:16.1.2'
+//
+//    // Add TensorFlow Lite dependencies
+//    implementation 'org.tensorflow:tensorflow-lite-gpu:2.9.0'
+//}

@@ -2,6 +2,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        jcenter() // Optional, sometimes still used for older libraries
     }
 }
 
