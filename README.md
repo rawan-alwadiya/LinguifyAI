@@ -6,28 +6,28 @@
 
 ## Features
 
-### - Translation Hub  
+### Translation Hub  
   - Translates text between multiple languages.  
   - Supports speech recognition for input.  
   - Allows text scanning for instant translation.  
 
-### - Discover Words  
+### Discover Words  
   - Provides flashcards with random English words.  
   - Includes translations, definitions, synonyms, and example sentences.  
   - Users can input words to retrieve detailed information.  
 
-### - Object Lens  
+### Object Lens  
   - Detects objects in images and provides descriptions.  
   - Supports translation of detected object names.  
 
-### - Grammar Tools  
+### Grammar Tools  
   - **Grammar Correction:** Fixes grammar mistakes using an AI model.  
   - **Grammar Quiz:** Generates multiple-choice grammar questions with feedback.  
 
-### - Summarization  
+### Summarization  
   - Summarizes texts using an AI model fine-tuned for this task.  
 
-### - ChatPro AI  
+### ChatPro AI  
   - AI chatbot for practicing English conversations.  
   - Processes text, voice, and image inputs.  
 
