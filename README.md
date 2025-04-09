@@ -1,16 +1,55 @@
-# linguify
+# LinguifyAI
 
-A new Flutter project.
+![LinguifyAI Design](https://github.com/rawan-alwadiya/LinguifyAI/blob/master/LinguifyAI_Showcase.png)
 
-## Getting Started
+**LinguifyAI** is an AI-powered language learning application built with Flutter. It integrates AI-driven features to assist users in *translation, grammar correction, object detection, summarization, and chatbot interactions*.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+### - Translation Hub  
+  - Translates text between multiple languages.  
+  - Supports speech recognition for input.  
+  - Allows text scanning for instant translation.  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### - Discover Words  
+  - Provides flashcards with random English words.  
+  - Includes translations, definitions, synonyms, and example sentences.  
+  - Users can input words to retrieve detailed information.  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### - Object Lens  
+  - Detects objects in images and provides descriptions.  
+  - Supports translation of detected object names.  
+
+### - Grammar Tools  
+  - **Grammar Correction:** Fixes grammar mistakes using an AI model.  
+  - **Grammar Quiz:** Generates multiple-choice grammar questions with feedback.  
+
+### - Summarization  
+  - Summarizes texts using an AI model fine-tuned for this task.  
+
+### - ChatPro AI  
+  - AI chatbot for practicing English conversations.  
+  - Processes text, voice, and image inputs.  
+
+---
+
+## Technologies Used  
+
+- **Flutter & Dart** (Cross-platform development)  
+- **BLoC** (State management)  
+- **Html** (API requests)  
+- **Speech-to-Text** (Voice input)  
+- **Image to Text** (Image handling for object detection)  
+
+---
+
+## Installation & Setup  
+
+### Prerequisites  
+
+- Flutter SDK installed  
+- Dart installed  
+- Android Studio or VS Code with Flutter plugin
+
+### Related Project  
+LinguifyAI requires a running instance of the **[LinguifyAI Backend](https://github.com/rawan-alwadiya/LinguifyAI_Backend)** to function correctly. Follow the backend setup instructions to deploy it.
